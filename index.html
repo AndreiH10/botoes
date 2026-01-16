@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botões</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Botões</h1>
+    <div class="botoes">
+        <div class="grupoBtn">
+            <div class="grupo1">
+                <button class="btn" id="bt1" onclick="botaoAtivado(this)"> Botão 1</button>
+                <button class="btn" id="bt2" onclick="botaoAtivado(this)"> Botão 2</button>
+                <button class="btn" id="bt3" onclick="botaoAtivado(this)"> Botão 3</button>
+            </div>
+            <div class="grupo2">
+                <button class="btn" id="bt4" onclick="botaoAtivado(this)"> Botão 4</button>
+                <button class="btn" id="bt5" onclick="botaoAtivado(this)"> Botão 5</button>
+                <button class="btn" id="bt6" onclick="botaoAtivado(this)"> Botão 6</button>
+            </div>
+        </div>
+       
+        <div class="grupoInput">
+            <input type="range" id="volume" name="volume" min="0" max="10" value="5">
+            <input type="range" id="volume2" name="volume2" min="0" max="10" value="5">
+            <input type="range" id="volume3" name="volume3" min="0" max="10" value="5">
+
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

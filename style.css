@@ -1,0 +1,88 @@
+.btn{
+    border: none;
+    padding: 100px;
+    background-color: aqua;
+    margin: 0px;
+    
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #00e5e5;
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,0.2); /* Efeito de botão apertado */
+}
+
+.btn:active {
+    background-color: #008b8b; /* Um azul mais escuro */
+    transform: scale(0.90);    /* Dá um efeito de que o botão afundou */
+}
+
+
+/*
+#bt1{
+    background-color: aqua;
+}
+*/
+
+body{
+    background-color: antiquewhite;
+
+    
+}
+
+.grupo1{
+    display: flex;
+    justify-content: center;
+}
+
+.grupo2{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+/*
+    display: flex;
+  justify-content: center;  Centraliza horizontalmente 
+  align-items: center;      Centraliza verticalmente 
+  height: 100vh;     
+
+*/  
+
+#volume, #volume2, #volume3{
+    writing-mode: vertical-lr;
+    direction: rtl;
+    vertical-align: middle;
+
+    /* Aumenta o comprimento da barra */
+    height: 250px; 
+    
+    /* Aumenta a grossura da barra */
+    width: 30px;   
+    
+    cursor: pointer;
+}
+
+.grupoInput{
+    display: flex;
+    align-items: center;
+
+    flex-direction: row;    /* Garante que os inputs fiquem em linha */
+    gap: 20px;              /* Espaço entre cada barra de volume */
+
+    background-color: gray;
+    
+}
+
+.botoes{
+    display: flex;          /* Alinha os filhos diretos horizontalmente */
+    flex-direction: row;    /* Garante a direção de linha */
+    align-items: center;    /* Alinha o volume e os botões pelo meio */
+    justify-content: center; /* Centraliza todo o conjunto na tela */
+    gap: 20px;
+}
+

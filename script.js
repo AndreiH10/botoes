@@ -36,10 +36,5 @@ botoes.forEach(botao => {
         const estaAtivo = this.classList.contains('clicado');
         mudarStatus(estaAtivo);
         
-        if(estaAtivo) {
-            alert("Ligado");
-        } else {
-            alert("Desligado");
-        }
     });
 });
